@@ -1,0 +1,180 @@
+/*This is how you commment in css*/
+
+
+/* Banner */
+
+#banner {
+    background-color: #d26e27;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 1em 0em 1em 0em;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    border-top: 5em;
+    /*I changed the min-height so it would be smaller than 100% of the web browswer veiwport height*/
+    min-height: 5vh;
+    position: relative;
+    text-align: center;
+    overflow: auto;
+    
+}
+    #banner .inner {
+        -moz-transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        transform: scale(1.0);
+        -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+        -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+        -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+        transition: opacity 1s ease, transform 1s ease;
+        opacity: 1;
+        position: relative;
+        z-index: 2;
+    }
+    #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+        color: #ffffff;
+    }
+
+    #banner hr {
+        border-bottom-color: #ffffff;
+    }
+    #banner h1 {
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+/* Navigation Bar */
+nav{
+    list-style-type: none;
+    display: block;
+    font: 1em sans-serif;
+    background-color: #333;
+    padding: 14px 16px;
+   }
+  nav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+
+
+  }
+  a:hover:not(.active) {
+    background-color: rgb(243, 227, 8);
+  }
+  
+  nav .active {
+    background-color: #0e07c0;
+    }
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+h3{
+    color: rgba(8, 8, 8, 0.952);
+}
+h4{
+  color: rgba(10, 65, 26, 0.952);
+}
+body{
+    background-color: #f4f4f4;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+footer{
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+}
+/*Lists*/ 
+  ul {
+    list-style-type: square;
+    padding: 20px;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+ 
+  ul li {
+    color: darkblue;
+    margin: 5px;
+  }
+
+  /*Images on my pages*/
+  div.logo {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  /*Input for my text in form*/
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  }
+  /*Text Area for form*/
+  textarea{
+    padding: 12px 20px;
+    background-color: #ebebf3;
+    border-color: #333;
+    height: 2rem;
+    width: 100%;
+  }
+    /*Input for my submit bottom on form*/
+    input[type=submit] {
+      width: 50%;
+      padding: 12px 20px;
+      margin: 8px 20% 8px 20%;
+      box-sizing: border-box;
+      border: 2px solid rgb(0, 0, 0);
+      border-radius: 4px;
+      background-color: #333;
+      color: #ffffff;
+      
+    }
+    /*Form Labels*/
+    label{
+      font: 1em sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    /*Table*/
+    table, th, td {
+      border: 2px solid;
+      border-color: rgb(140, 213, 149);
+      border-collapse: collapse ;
+      text-align: justify;
+      padding: 1rem;      
+    }
+    td {
+      height: 50px;
+      vertical-align: bottom;
+    }
+    tr:nth-child(even) {background-color: #cee965;}
+
+    div.square {
+      background-color: #165b33;
+      overflow-x: auto;
+      padding-top: 5%;
+      padding-right: 10%;
+      padding-bottom: 5%;
+      padding-left: 10%;
+    }
